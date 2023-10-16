@@ -1,24 +1,20 @@
 import React from 'react';
-import logo from './assets/svg/logo.svg';
 import './styles/App.css';
+import NavBar from './components/NavBar';
 
 const App = () => {
 	return (
-		<div className='App'>
-			<header className='App-header'>
-				<img src={logo} className='App-logo' alt='logo' />
-				<p>
-					Edit <code>src/App.tsx</code> and save to reload.
-				</p>
-				<a
-					className='App-link'
-					href='https://reactjs.org'
-					target='_blank'
-					rel='noopener noreferrer'>
-					Learn React
-				</a>
-			</header>
-		</div>
+		<main className={'relative'}>
+			<NavBar />
+			<section className={'wide:padding-r padding-b'}>Hero</section>
+			<section className={'padding'}>Popular Products</section>
+			<section className={'padding'}>Quality</section>
+			<section className={'padding-x py-8'}>Services</section>
+			<section className={'padding'}>Offer</section>
+			<section className={'padding bg-blue-50'}>Reviews</section>
+			<section className={'padding-x sm:py-32 py-16 w-full'}>Subscribe</section>
+			<section className={'padding-t pb-8 bg-black'}>Footer</section>
+		</main>
 	);
 };
 
