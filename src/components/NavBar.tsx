@@ -9,7 +9,7 @@ const NavBar = (props: any) => {
 					<Logo width={300} height={300} style={{ maxHeight: '40px', width: 'auto' }} />
 				</div>
 
-				<div className={'flex-1 '}>
+				<div className={'flex justify-end flex-1 space-x-4'}>
 					<button>Login</button>
 					<button>Apply</button>
 				</div>
