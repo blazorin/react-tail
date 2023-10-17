@@ -6,6 +6,7 @@ const App = () => {
 	return (
 		<main className={'relative'}>
 			<NavBar />
+
 			<section className={'wide:padding-r padding-b'}>Hero</section>
 			<section className={'padding'}>Popular Products</section>
 			<section className={'padding'}>Quality</section>

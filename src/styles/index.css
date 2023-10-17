@@ -16,6 +16,11 @@ code {
     monospace;
 }
 
+
+.bg-color-main {
+  background: #e6f0ff;
+}
+
 @layer components {
   .max-container {
     max-width: 1440px;
@@ -59,4 +64,6 @@ code {
   .info-text {
     @apply font-montserrat text-slate-gray text-lg leading-7;
   }
+
+
 }
