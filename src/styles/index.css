@@ -21,6 +21,14 @@ code {
   background: #e6f0ff;
 }
 
+.bg-color-green {
+  background: #008573;
+}
+
+.nav-buttons button {
+  color: #1b76de
+}
+
 @layer components {
   .max-container {
     max-width: 1440px;
